@@ -1,0 +1,21 @@
+.noborder-allauto {
+    border: none;
+    width: 100%;
+    height: 100vh;
+}
+
+.noborder-widthauto {
+    border: none;
+    width: 100%;
+}
+
+.noborder-heightauto {
+    border: none;
+    height: 100vh;
+}
+
+.noborder {
+    border: none;
+    width: 100%;
+    height: 100vh;
+}
