@@ -1,0 +1,16 @@
+.noborder {
+    border: none;
+}
+
+.widthauto {
+    width: 100%;
+}
+
+.heightauto { 
+    height: 100vh;
+}
+
+.allauto {
+    width: 100%;
+    height: 100vh;
+}
