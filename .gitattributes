@@ -2,5 +2,5 @@
 * text=auto
 
 # Sass
-*.sass Sass
-*.scss Sass
+*.sass linguist-language=Sass
+*.scss linguist-language=Sass
