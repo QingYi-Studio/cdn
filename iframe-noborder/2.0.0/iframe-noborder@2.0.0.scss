@@ -5,9 +5,13 @@ $output-style: compressed;
 $linefeed: "";
 $sass-precision: 10;
 
-// 设置输出时不要添加任何缩进
+// 设置输出时不要添加任何缩进和空格
 $indent-width: 0;
 $indent-type: space;
+
+// 设置输出时不要添加空格
+$space-after-colon: "";
+$space-before-colon: "";
 
 iframe.noborder {
   border: none;
