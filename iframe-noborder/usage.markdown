@@ -150,7 +150,7 @@ setTimeout(function() {
 
 ## 2.0.0
 
-将`<link src="https://cdn.qingyi-studio.top/iframe-noborder/2.0.0/iframe-noborder@2.0.0.css" type="text/css">`添加到代码中。
+将`<link src="https://cdn.qingyi-studio.top/iframe-noborder/2.0.0/iframe-noborder@2.0.0.min.css" type="text/css">`添加到代码中。
 
 该版本使用*Sass*重写，优化了使用，细化了调整范围，限制了适用范围为含有*class*属性为*noborder*的*iframe*。
 
