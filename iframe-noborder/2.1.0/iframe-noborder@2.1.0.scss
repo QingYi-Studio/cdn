@@ -1,0 +1,29 @@
+iframe.noborder {
+  border: none;
+
+  @for $k from 1 through 100 {
+    &-h#{$k} {
+      height: $k * 1% !important;
+      border: none;
+    }
+
+    &-w#{$k} {
+      min-width: $k * 1% !important;
+      border: none;
+    }
+
+    &-wh#{$k} {
+      width: $k * 1% !important;
+      height: $k * 1vh !important;
+      border: none;
+    }
+    
+    @for $i from 1 through 100 {
+      &-w#{$i}h#{$k} {
+        width: $i * 1% !important;
+        height: $k * 1vh !important;
+        border: none;
+      }
+    }
+  }
+}
