@@ -8,7 +8,7 @@ iframe.noborder {
     }
 
     &-w#{$k} {
-      min-width: $k * 1% !important;
+      width: $k * 1% !important;
       border: none;
     }
 
