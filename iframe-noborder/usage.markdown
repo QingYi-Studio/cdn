@@ -202,9 +202,68 @@ setTimeout(function() {
 如果需要宽高全部相等，可使用以下快捷设置：
 
 ```html
-<iframe class="noborder wh13" src="https://www.example.com/"></iframe>
-<iframe class="noborder wh56" src="https://www.example.com/"></iframe>
-<iframe class="noborder wh79" src="https://www.example.com/"></iframe>
+<iframe class="noborder-wh13" src="https://www.example.com/"></iframe>
+<iframe class="noborder-wh56" src="https://www.example.com/"></iframe>
+<iframe class="noborder-wh79" src="https://www.example.com/"></iframe>
+```
+
+## 2.1.0
+
+将`<link src="https://cdn.qingyi-studio.top/iframe-noborder/2.0.0/iframe-noborder@2.1.0.min.css" type="text/css">`添加到代码中。
+
+该版本使用*Sass*重写，优化了使用，细化了调整范围，限制了适用范围为含有*class*属性为*noborder*的*iframe*。
+
+### 单纯无边框
+
+将*iframe*的*class*属性设为*noborder*。
+
+例如`<iframe class="noborder" src="https://www.example.com/"></iframe>`
+
+### 无边框+高度
+
+将*iframe*的*class*属性设为*noborder-h%*。
+
+例如：
+
+```html
+<iframe class="noborder-h5" src="https://www.example.com/"></iframe>
+<iframe class="noborder-h6" src="https://www.example.com/"></iframe>
+<iframe class="noborder-h23" src="https://www.example.com/"></iframe>
+```
+
+高度应为*h+1的倍数*，例如*h5*、*h6*、*h23*，最大至*h100*。
+
+### 无边框+宽度
+
+将*iframe*的*class*属性设为*noborder-w%*。
+
+例如：
+
+```html
+<iframe class="noborder-w5" src="https://www.example.com/"></iframe>
+<iframe class="noborder-w7" src="https://www.example.com/"></iframe>
+<iframe class="noborder-w39" src="https://www.example.com/"></iframe>
+```
+
+高度应为*w+1的倍数*，例如*w5*、*w7*、*w39*，最大至*w100*。
+
+### 无边框+高度+宽度
+
+将*iframe*的*class*属性设为*noborder-w%h%*。
+
+例如：
+
+```html
+<iframe class="noborder-w5h3" src="https://www.example.com/"></iframe>
+<iframe class="noborder-w9h10" src="https://www.example.com/"></iframe>
+```
+
+如果需要宽高全部相等，可使用以下快捷设置：
+
+```html
+<iframe class="noborder-wh13" src="https://www.example.com/"></iframe>
+<iframe class="noborder-wh56" src="https://www.example.com/"></iframe>
+<iframe class="noborder-wh79" src="https://www.example.com/"></iframe>
 ```
 
 ------
