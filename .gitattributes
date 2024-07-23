@@ -1,6 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 
-# Sass
-*.sass linguist-language=Sass
-*.scss linguist-language=Sass
+*.* linguist-language=Text
