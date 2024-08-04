@@ -1,6 +1,14 @@
-# Links
+
+
+​Please understand that the CDN is free for **personal use only** and prohibited for **enterprise and company** use.
+
+## Links
+
+The following is in **no** particular order, just input the first to see which one first input, so **do not** rise to the political level.
 
 https://qingyi-cdn.top/
+
+https://github.qingyi-cdn.top/
 
 https://vercel.qingyi-cdn.top/
 
